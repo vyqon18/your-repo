@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GERC Hearing (Petition 2612/2026) — Phase-VII Standalone BESS, Gujarat</title>
+  <meta name="description" content="A key regulatory step: GERC hearing for tariff adoption (Petition No. 2612/2026) for GUVNL Phase-VII standalone BESS tender." />
+
+  <!-- Open Graph (LinkedIn / WhatsApp preview) -->
+  <meta property="og:title" content="GERC hearing could unlock Gujarat’s Phase-VII standalone BESS buildout" />
+  <meta property="og:description" content="Petition 2612/2026: Tariff adoption hearing for GUVNL Phase-VII standalone BESS. Why it matters for developers and investors." />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="https://ieefa.org/sites/default/files/styles/header_full/public/2025-08/Lithium%20ion%20battery%20grid%20storage.jpg?itok=aLDjSvHv" />
+
+  <style>
+    :root{
+      --bg:#070b14;
+      --panel:#0b1220;
+      --card:#0f1a31;
+      --text:rgba(255,255,255,.92);
+      --muted:rgba(255,255,255,.70);
+      --line:rgba(255,255,255,.12);
+      --accent:#4ea7ff;
+      --radius:18px;
+      --max: 980px;
+      --shadow: 0 18px 50px rgba(0,0,0,.35);
+      --font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
+    }
+
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:var(--font);background:linear-gradient(180deg,#050813,var(--bg));color:var(--text)}
+    a{color:inherit}
+    .wrap{width:min(var(--max), calc(100% - 40px));margin:0 auto}
+
+    header{
+      position:sticky; top:0; z-index:50;
+      background:rgba(7,11,20,.75);
+      backdrop-filter: blur(10px);
+      border-bottom:1px solid var(--line);
+    }
+    .top{
+      display:flex;align-items:center;justify-content:space-between;gap:16px;
+      padding:14px 0;
+    }
+    .brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+    .logo{
+      width:38px;height:38px;border-radius:12px;display:grid;place-items:center;
+      background:linear-gradient(135deg, var(--accent), #1fe0b3);
+      color:#06101f;font-weight:900;
+    }
+    .brand span strong{display:block;letter-spacing:.3px}
+    .brand span small{display:block;color:var(--muted);margin-top:2px}
+    .nav{display:flex;gap:14px;flex-wrap:wrap}
+    .nav a{
+      text-decoration:none;color:var(--muted);font-weight:650;font-size:14px;
+      border:1px solid transparent;padding:8px 10px;border-radius:999px;
+    }
+    .nav a:hover{color:var(--text);border-color:var(--line);background:rgba(255,255,255,.03)}
+
+    .hero{padding:44px 0 22px}
+    .badge{
+      display:inline-flex;align-items:center;gap:10px;
+      padding:8px 12px;border:1px solid var(--line);border-radius:999px;
+      background:rgba(255,255,255,.03); color:var(--muted);
+      font-size:13px;font-weight:700;
+    }
+    h1{
+      margin:14px 0 10px;
+      font-size: clamp(28px, 3.4vw, 44px);
+      line-height:1.1;
+      letter-spacing:-.4px;
+    }
+    .sub{
+      margin:0;
+      color:var(--muted);
+      font-size:16px;
+      line-height:1.7;
+      max-width: 820px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 14px;
+      padding: 18px 0 38px;
+    }
+    .card{
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      border-radius: var(--radius);
+      box-shadow: 0 10px 30px rgba(0,0,0,.18);
+      overflow:hidden;
+    }
+    .card.pad{padding:18px}
+    .span-12{grid-column: span 12}
+    .span-8{grid-column: span 8}
+    .span-4{grid-column: span 4}
+    @media (max-width: 860px){
+      .span-8,.span-4{grid-column: span 12}
+      .nav{display:none}
+    }
+
+    .imggrid{
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      padding: 14px;
+      background: rgba(0,0,0,.15);
+      border-top: 1px solid var(--line);
+    }
+    .img{
+      border-radius: 14px;
+      overflow:hidden;
+      border:1px solid rgba(255,255,255,.10);
+      background:#050813;
+      min-height: 180px;
+    }
+    .img img{width:100%;height:100%;display:block;object-fit:cover}
+    .caption{
+      padding: 10px 14px 14px;
+      color: rgba(255,255,255,.62);
+      font-size: 12.5px;
+      line-height: 1.45;
+      border-top: 1px solid rgba(255,255,255,.08);
+      background: rgba(255,255,255,.02);
+    }
+
+    h2{margin:0 0 8px;font-size:20px}
+    p{margin:0 0 12px;color:var(--muted);line-height:1.7}
+    ul{margin:0;padding-left:18px;color:var(--muted);line-height:1.75}
+    .kpi{
+      display:grid; gap:10px;
+    }
+    .pill{
+      padding:12px 14px;
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      border-radius: 16px;
+    }
+    .pill strong{display:block;color:var(--text)}
+    .pill small{display:block;color:var(--muted);margin-top:4px;line-height:1.45}
+
+    .refs a{color:var(--accent)}
+    footer{
+      border-top:1px solid var(--line);
+      padding:18px 0;
+      color:rgba(255,255,255,.60);
+      font-size:13px;
+    }
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;
+      gap:10px;
+      padding:12px 14px;border-radius:14px;
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      text-decoration:none;
+      font-weight:800;
+    }
+    .btn:hover{background: rgba(255,255,255,.06)}
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="wrap top">
+      <a class="brand" href="#top">
+        <div class="logo">V</div>
+        <span>
+          <strong>VYQON Research Pvt. Ltd.</strong>
+          <small>Regulatory & market intelligence • Clean energy</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Page navigation">
+        <a href="#context">Context</a>
+        <a href="#what">What’s happening</a>
+        <a href="#why">Why it matters</a>
+        <a href="#sources">Sources</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top" class="wrap">
+    <section class="hero">
+      <span class="badge">Gujarat • Battery Energy Storage • Regulatory update</span>
+      <h1>GERC hearing (Petition No. 2612/2026) could unlock the commercial phase of Phase-VII standalone BESS in Gujarat</h1>
+      <p class="sub">
+        I’m sharing this because it signals a key regulatory step that could unlock the commercial phase of a large
+        battery-storage buildout in Gujarat — a move many investors and developers are watching closely.
+      </p>
+    </section>
+
+    <!-- Images -->
+    <section class="card span-12" aria-label="Related visuals">
+      <div class="imggrid">
+        <figure class="img">
+          <img
+            src="https://m.economictimes.com/thumb/msid-116379581%2Cwidth-1200%2Cheight-1200%2Cresizemode-4%2Cimgsize-383420/gift-city-invites-bids-to-build-754000-sq-ft-commercial-tower.jpg"
+            alt="Related image"
+            loading="lazy"
+          />
+        </figure>
+        <figure class="img">
+          <img
+            src="https://ieefa.org/sites/default/files/styles/header_full/public/2025-08/Lithium%20ion%20battery%20grid%20storage.jpg?itok=aLDjSvHv"
+            alt="Lithium-ion battery grid storage"
+            loading="lazy"
+          />
+        </figure>
+        <figure class="img">
+          <img
+            src="https://pbs.twimg.com/media/HASp7XubcAAbqd9.png"
+            alt="Related image"
+            loading="lazy"
+          />
+        </figure>
+        <figure class="img">
+          <img
+            src="https://media.licdn.com/dms/image/v2/D5612AQH4GilZ_e7S2g/article-inline_image-shrink_1500_2232/B56ZsMqqFxGsAU-/0/1765444068296?e=2147483647&t=MtS1ZH1LkSW0uFpEtxBjgJUXce1ZwoH4YxqhotKKGEU&v=beta"
+            alt="Related image"
+            loading="lazy"
+          />
+        </figure>
+      </div>
+      <div class="caption">
+        Images are loaded from external sources (ET / IEEFA / X / LinkedIn). If any image doesn’t render due to hotlinking restrictions,
+        download it locally into an <code>assets/</code> folder and update the <code>src</code> paths.
+      </div>
+    </section>
+
+    <section class="grid">
+      <!-- What’s happening -->
+      <article id="what" class="card pad span-8">
+        <h2>What’s happening</h2>
+        <p>
+          The <strong>Gujarat Electricity Regulatory Commission (GERC)</strong> has scheduled an official
+          <strong>hearing (Petition No. 2612/2026)</strong> to consider a petition under Section <strong>63/86</strong>
+          of the Electricity Act seeking <strong>adoption of the tariff discovered</strong> in the competitive bidding for the
+          <strong>Phase-VII standalone Battery Energy Storage System (BESS)</strong> tender issued by
+          <strong>Gujarat Urja Vikas Nigam Limited (GUVNL)</strong>
+          (<strong>RfS No. GUVNL/BESS/Phase VII dated 23 Jul 2025</strong>).
+          This hearing was listed for <strong>4 Feb 2026</strong> on the regulator’s site.
+        </p>
+        <p>
+          The petition asks the Commission to formally approve the tariff that emerged from the reverse auction process —
+          a crucial procedural step required under the Electricity Act when procuring power or storage through competitive bidding.
+        </p>
+
+        <a class="btn" href="https://gercin.org/hearing-schedule/2612-2026/?utm_source=chatgpt.com" target="_blank" rel="noopener">
+          View GERC hearing page →
+        </a>
+      </article>
+
+      <!-- Key takeaways -->
+      <aside id="context" class="card pad span-4">
+        <h2>Key takeaways</h2>
+        <div class="kpi">
+          <div class="pill">
+            <strong>Regulatory milestone</strong>
+            <small>Tariff adoption is the bridge between bid discovery and contract execution.</small>
+          </div>
+          <div class="pill">
+            <strong>Project bankability</strong>
+            <small>Adopted tariff helps lock revenue assumptions needed for financial close.</small>
+          </div>
+          <div class="pill">
+            <strong>Watch the order</strong>
+            <small>The post-hearing order will indicate when Phase-VII winners can move to execution.</small>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Why it matters -->
+      <article id="why" class="card pad span-12">
+        <h2>Why it matters for developers & investors</h2>
+        <p>
+          In past phases of BESS procurement in Gujarat, once GERC has adopted the tariff, the procurer must sign the
+          <strong>Battery Energy Storage Purchase Agreements (BESPAs)</strong> and project executors can move toward
+          <strong>financial close and commissioning</strong> — locking in revenue assumptions for the awarded contracts.
+        </p>
+        <p>
+          Tracking GERC’s <strong>order post-hearing</strong> will be key for developers and investors to understand
+          when the Phase-VII winners can finalize financing and contracts.
+        </p>
+        <ul>
+          <li><strong>Developer impact:</strong> clarity on executable contracts (BESPAs/PPAs) and timelines.</li>
+          <li><strong>Investor impact:</strong> stronger confidence in cashflow assumptions, enabling financial close.</li>
+          <li><strong>Market signal:</strong> progress on storage procurement mechanism and implementation in Gujarat.</li>
+        </ul>
+      </article>
+
+      <!-- Sources -->
+      <article id="sources" class="card pad span-12 refs">
+        <h2>Sources</h2>
+        <p>
+          [1] GERC hearing schedule page:
+          <a href="https://gercin.org/hearing-schedule/2612-2026/?utm_source=chatgpt.com" target="_blank" rel="noopener">
+            Petition 2612/2026 — GERC
+          </a>
+        </p>
+        <p>
+          [2] Phase-VII RfS document:
+          <a href="https://solarquarter.com/wp-content/uploads/2025/07/1753286163254.pdf?utm_source=chatgpt.com" target="_blank" rel="noopener">
+            RfS No. GUVNL/BESS/Phase VII dated 23.07.2025 (PDF)
+          </a>
+        </p>
+      </article>
+    </section>
+
+    <footer>
+      © <span id="year"></span> VYQON Research Pvt. Ltd. • Built for GitHub Pages
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
